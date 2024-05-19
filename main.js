@@ -6,7 +6,6 @@ const calculateSum = (arr) => {
   
     return arr.reduce((n, num) => (num % 3 === 0 ? n + num : n), 0);
   };
-  
   const coll1 = [8, 9, 21, 19, 18, 22, 7];
   console.log(calculateSum(coll1)); // 48
   
